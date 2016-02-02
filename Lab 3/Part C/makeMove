@@ -1,0 +1,13 @@
+void makeMove(){
+	
+		System.out.println("Please enter a row")
+		String input = stdin.readLine();
+		int row = Integer.parseInt(input);
+		
+		System.out.println("Please enter a column")
+		input = stdin.readLine();
+		int col = Integer.parseInt(input);
+		
+		board.addMark(row, col, mark);
+		board.display();
+	}
