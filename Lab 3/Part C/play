@@ -1,0 +1,28 @@
+void play(){
+		
+		while(xWin() != true && oWin() != true && isFull() !=true){
+			
+		makeMove();
+		
+		}
+		
+		if(xWin() == true || oWin() == true){
+			
+			System.out.println("The winner of the game is");
+			
+			if(board.checkWinner(mark) == 1){
+				
+				System.out.print(name);
+			}
+				
+			else
+				System.out.print(opponent.name);
+			
+				
+			}
+		
+		else
+			System.out.println("The game resulted in a tie");
+			
+			
+		}
