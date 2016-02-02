@@ -2,7 +2,7 @@
  * ENSF 409 - Lab 3 - Winter 20115
  * Started by: Mahmood Moussavi
  * January 22, 2015
- * Completed by: STUDENT(S) NAME
+ * Completed by: Harry Han, Yida Xu
  */
 import java.util.*;
 
